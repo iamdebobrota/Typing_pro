@@ -4,7 +4,7 @@ import { typeReducer } from "./typing/typeReducer";
 
 const rootReducer=combineReducers({
     auth:authReducer,
-    typeReducer:typeReducer
+    AppReducer:typeReducer
 })
 
 export const store=legacy_createStore(rootReducer);
